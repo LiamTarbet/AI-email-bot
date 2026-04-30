@@ -23,7 +23,7 @@ def build_langchain_llm():
         logger.warning("sequencer", "GEMINI_API_KEY not set — LangChain LLM unavailable")
         return None
     return ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-2.0-flash",
         google_api_key=GEMINI_KEY,
         temperature=0.6,
         max_output_tokens=1024,
