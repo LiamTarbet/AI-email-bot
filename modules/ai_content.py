@@ -21,7 +21,7 @@ GEMINI_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE")
 def _get_model():
     genai.configure(api_key=GEMINI_KEY)
     return genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
+        model_name="gemini-2.0-flash-lite",
         generation_config=genai.GenerationConfig(
             temperature=0.7,
             max_output_tokens=2048,
