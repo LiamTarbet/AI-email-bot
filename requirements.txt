@@ -1,0 +1,15 @@
+langchain==0.3.7
+langchain-google-genai==2.0.6
+google-generativeai==0.8.3
+requests==2.32.3
+pandas==2.2.3
+matplotlib==3.9.2
+plotly==5.24.1
+kaleido==0.2.1
+schedule==1.2.2
+python-dotenv==1.0.1
+Pillow==10.4.0
+jinja2==3.1.4
+numpy==1.26.4
+pytz==2024.2
+apscheduler==3.10.4
